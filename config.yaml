@@ -2,6 +2,7 @@ baseURL: "https://github.com/rmarlon308/mysite/"
 languageCode: "en-us"
 title: "Marlon Rodríguez Flor"
 theme: hugo-profile
+relativeURLs: true
 
 outputs:
   home:
@@ -55,7 +56,7 @@ markup:
 params:
   title: "Marlon Rodríguez Flor"
   description: This is Marlon's profile.
-  staticPath: "https://github.com/rmarlon308/mysite/tree/main/static"  # The path to serve the static files from
+  # staticPath: "https://github.com/rmarlon308/mysite/tree/main/static"  # The path to serve the static files from
   favicon: "/fav_marlon.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
