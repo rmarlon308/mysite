@@ -1,4 +1,4 @@
-baseURL: "//github.com/rmarlon308/mysite/tree/main"
+baseURL: "https://github.com/rmarlon308/mysite/"
 languageCode: "en-us"
 title: "Marlon Rodríguez Flor"
 theme: hugo-profile
