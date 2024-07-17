@@ -31,7 +31,7 @@
   
 
 
-<meta property="og:url" content="http://localhost:1313/categories/">
+<meta property="og:url" content="//localhost:1313/categories/">
   <meta property="og:site_name" content="Marlon Rodríguez Flor">
   <meta property="og:title" content="Categories">
   <meta property="og:description" content="This is Marlon&#39;s profile.">
@@ -170,7 +170,7 @@ Categories | Marlon Rodríguez Flor
     <nav class="pt-3 navbar navbar-expand-lg animate">
         <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
             
-            <a class="navbar-brand primary-font text-wrap" href="/">
+            <a class="navbar-brand primary-font text-wrap" href="//localhost:1313/">
                 
                 <img src="/fav_marlon.png" width="30" height="30"
                     class="d-inline-block align-top">
@@ -206,7 +206,7 @@ Categories | Marlon Rodríguez Flor
 
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#about" aria-label="about">
+                        <a class="nav-link" href="//localhost:1313/#about" aria-label="about">
                             About Me
                         </a>
                     </li>
@@ -214,7 +214,7 @@ Categories | Marlon Rodríguez Flor
 
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#experience"
+                        <a class="nav-link" href="//localhost:1313/#experience"
                             aria-label="experience">
                             Experience
                         </a>
@@ -223,7 +223,7 @@ Categories | Marlon Rodríguez Flor
 
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#education"
+                        <a class="nav-link" href="//localhost:1313/#education"
                             aria-label="education">
                             Education
                         </a>
@@ -232,7 +232,7 @@ Categories | Marlon Rodríguez Flor
 
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#publications"
+                        <a class="nav-link" href="//localhost:1313/#publications"
                             aria-label="publications">
                             Publications
                         </a>
@@ -241,7 +241,7 @@ Categories | Marlon Rodríguez Flor
 
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#projects"
+                        <a class="nav-link" href="//localhost:1313/#projects"
                             aria-label="projects">
                             Some Projects
                         </a>
@@ -252,7 +252,7 @@ Categories | Marlon Rodríguez Flor
 
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#contact"
+                        <a class="nav-link" href="//localhost:1313/#contact"
                             aria-label="contact">
                             Contact
                         </a>
@@ -363,7 +363,7 @@ Categories | Marlon Rodríguez Flor
         <div class="col-md-4 text-center">
             
                 <div class="pb-2">
-                    <a href="http://localhost:1313/" title="Marlon Rodríguez Flor">
+                    <a href="//localhost:1313/" title="Marlon Rodríguez Flor">
                         <img alt="Footer logo" src="/fav_marlon.png"
                             height="40px" width="40px">
                     </a>
@@ -386,15 +386,13 @@ Categories | Marlon Rodríguez Flor
 </div>
 </footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
+    if (document.body.className.includes("dark")) {
+        document.body.classList.remove('dark');
+        localStorage.setItem("pref-theme", 'light');
     }
-
 </script>
+
+
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
         if (document.body.className.includes("dark")) {
