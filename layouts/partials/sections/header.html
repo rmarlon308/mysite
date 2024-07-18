@@ -94,20 +94,20 @@
                     </li>
                     {{ end }}
 
-                    {{ if and (.Site.Params.experience.enable | default false) (not (.Site.Params.navbar.menus.disableExperience | default false)) }}
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.Params.BaseURL }}#experience"
-                            aria-label="experience">
-                            {{ .Site.Params.experience.title | default "Experience" }}
-                        </a>
-                    </li>
-                    {{ end }}
-
                     {{ if and (.Site.Params.education.enable | default false) (not (.Site.Params.navbar.menus.disableEducation | default false)) }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.Params.BaseURL }}#education"
                             aria-label="education">
                             {{ .Site.Params.education.title | default "Education" }}
+                        </a>
+                    </li>
+                    {{ end }}
+
+                    {{ if and (.Site.Params.experience.enable | default false) (not (.Site.Params.navbar.menus.disableExperience | default false)) }}
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="{{ .Site.Params.BaseURL }}#experience"
+                            aria-label="experience">
+                            {{ .Site.Params.experience.title | default "Experience" }}
                         </a>
                     </li>
                     {{ end }}
