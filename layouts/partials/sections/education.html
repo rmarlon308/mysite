@@ -20,12 +20,12 @@
                     <div class="col-sm-9">
                         <div class="card">
                             <div class="card-body">
-                                <div class="float-end">
+                                <div>
                                     {{ if .school.icon }}
-                                    <img src="{{ .school.icon }}" alt="{{ .school.name }}" style="height: auto; width: 120px;  display: block; margin-top: 5px;">
+                                    <img src="{{ .school.icon }}" alt="{{ .school.name }}" style="height: auto; width: 15%; float: right;">
                                     {{ end }}
                                 </div>
-                                <h5 class="card-title">{{ .title }}</h5>
+                                <h5 class="card-title" style="">{{ .title }}</h5>
                                 
                                 {{ if .school.url }}
                                 <a href="{{ .school.url }}" target="_blank">

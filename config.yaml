@@ -130,7 +130,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Marlon."
-    subtitle: "Computer Science Engineer \nData Scientist"
+    subtitle: "Computer Science Engineer"
+    subtitle2: "Data Scientist"
     content: "Passionate about the development of artificial intelligence models for discovering the stories behind data."
     image: /images/hero.jpg
     bottomImage:
