@@ -350,6 +350,43 @@ params:
           # - icon: fab fa-github
           #   url: https://github.com/rmarlon308/QLearning-and-SARSA-Implementation
 
+      - title: Multiple Object Tracking for Video Sequences
+        content: "This project addresses the task of multiple object tracking (MOT), specifically focusing on tracking people walking in video sequences. The base model for detection and tracking is enhanced using advanced techniques to improve performance. The dataset used is MOT16, which contains various scenarios for individual detection."
+        image: /images/projects/MOD.png
+        featured:
+          name: Available on GitHub
+          link: https://github.com/rmarlon308/Multiple-Object-Traking-for-Video-Sequences
+        badges:
+          - "Python"
+          - "PyTorch"
+          - "Computer Vision"
+        # links:
+          # - icon: fa fa-envelope
+            # url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          # - icon: fab fa-github
+          #   url: https://github.com/rmarlon308/QLearning-and-SARSA-Implementation
+
+
+      - title: "Recommendation: Matrix Factorization and Deep-Learning"
+        content: "This project demonstrates collaborative filtering on the movie ratings dataset using matrix factorization combined with neural networks."
+        image: /images/projects/recomendation.png
+        featured:
+          name: Available on GitHub
+          link: https://github.com/rmarlon308/Recommendation-Matrix-Factorization-and-Deep-Learning
+        badges:
+          - "Python"
+          - "TensorFlow"
+          - "Keras"
+          - "Recomendation Systems"
+        # links:
+          # - icon: fa fa-envelope
+            # url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          # - icon: fab fa-github
+          #   url: https://github.com/rmarlon308/QLearning-and-SARSA-Implementation
+
+
+
+
 
   #Contact
   contact:
