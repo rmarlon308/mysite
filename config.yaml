@@ -215,7 +215,7 @@ params:
         school:
           name: "Universidad Autónoma de Madrid (UAM)"
           url: "https://www.uam.es/uam/inicio"
-          icon: /images/UAM-Emblema-removebg-preview.png
+          icon: /images/UAM+solo.svg
         date: "2023 - Present"
         # GPA: "3.8 out of 5.0"
         content: |-
