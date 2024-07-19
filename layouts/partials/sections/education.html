@@ -49,12 +49,14 @@
                                     </i> 
                                 </div>
                                 {{ end }}
-                                <div class="py-1 education-content ">
+                                <div class="py-1 education-content">
                                     {{ .content | markdownify}}
 
                                     {{ if .subjects.enable }}
+
                                     {{ .subjects.title }}
-                                    <ul>
+                                    
+                                    <ul class="education-ul">
                                         {{ range .subjects.items }}
                                         <li>{{ . | markdownify }}</li>
                                         {{ end }}

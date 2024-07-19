@@ -140,7 +140,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/CV_Marlon2024_ESP.pdf"
+      url: "/CV_Marlon2024_ENG_JUL.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -194,16 +194,17 @@ params:
         #   name: "View the project"
         #   url: "https://example.com"
         content:  |
-          - Developed and implemented a Machine Learning model (SVM) to identify potential customers for increasing their savings account balances. This initiative identified over 38,000 clients, with 7% successfully increasing their balances by more than USD 260 each, resulting in a cumulative increase of USD 200,000 in savings account balances.
-          - Provided leadership and collaborated closely with product owners in defining and developing projects, and effectively communicated findings and results to non-technical audiences.
+          - Increased the balance in savings accounts by USD 200,000 by identifying over 38,000 potential clients who increased their balance by more than USD 260 through the implementation of an XGBoost model, with 7% of them achieving this increase.
+          - Lead and work closely with product owners to develop successful projects, communicating findings and results clearly and effectively to non-technical audiences.
+      
       - job: "Data Analytics Technician"
         company: "Banco Solidario S.A."
         companyUrl: "https://www.banco-solidario.com/"
         date: "Jul 2021 - Dic 2021"
         icon: /images/bs.png
         content: |
-          - Developed and implemented a Machine Learning model (Random Forest) to identify potential customers likely to download Banco Solidario's mobile application, enhancing customer segmentation. This initiative reduced download costs by 22% and increased application downloads by 30%.
-          - Created an interactive dashboard to monitor sales and service efficiency in Banco Solidario's commercial advisors. This tool enables proactive actions at each branch, enhancing customer experience and sales outcomes.
+          - Increased the number of downloads of Banco Solidario's mobile app by 30% and reduce the cost per download by 22% by implementing a Random Forest model to identify potential customers for digitalization, also improving customer segmentation.
+          - Enhanced customer experience and boost sales by developing an interactive dashboard to monitor the efficiency of time in sales and services for commercial advisors at Banco Solidario, enabling targeted actions at each branch.
 
   # Education
   education:
@@ -211,35 +212,43 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master in Data Science"
+      - title: "Master's Degree in Data Science"
         school:
           name: "Universidad Autónoma de Madrid (UAM)"
           url: "https://www.uam.es/uam/inicio"
           icon: /images/UAM+solo.svg
-        date: "2023 - Present"
-        # GPA: "3.8 out of 5.0"
+        date: "Sep 2023 - Present"
+        GPA: "7.73 out of 10"
         content: |-
-          I expect to gradutate in January 2025.
+          I expect to graduate in January 2025.
 
           Extracurricular Activities:
-          - Delegate of the Master in Data Science.
+            - Delegate of the Master's Degree in Data Science.
+
+
         subjects:
           enable: true
           title: "Some relevant subjects taken:"
           items:
             - "Advanced Methods in Machine Learning."
-            - "Natural Language Processing (NLP)."
-            - "Deep Learning for Signal Processing Image and Video."
-            - "Reinforcement Learning."
             - "Advanced Methods in Statistics."
+            - "Deep Learning for Biometric Information Processing."
+            - "Deep Learning for Signal Processing Image and Video."
+            - "Large-Scale Data Processing."
+            - "Natural Language Processing (NLP)."
+            - "Reinforcement Learning."
+            - "Temporal Information Processing."
+            - "Unstructured Information."
+            - "Data Management."
+
           
       - title: "Computer Science Engineering"
         school:
           name: "Universidad San Francisco de Quito (USFQ)"
           url: "https://www.usfq.edu.ec/es"
           icon: /images/logo-usfq-cropped.svg
-        date: "2017 - 2021"
-        # GPA: "3.9 out of 5.0"
+        date: "Aug 2017 - Jun 2021"
+        GPA: "2.94 out of 4"
         content: |-
           I published a paper in the 2021 IEEE Fifth Ecuador Technical Chapters Meeting (ETCM).
           - [Path Planning Optimization in SDN Using Machine Learning Techniques](https://ieeexplore.ieee.org/document/9590749).
@@ -248,15 +257,16 @@ params:
           enable: true
           title: "Some relevant subjects taken:"
           items:
-          - "Artificial Intelligence."
-          - "Data Mining."
-          - "Probability and Statistics."
-          - "Linear Algebra."
-          - "Calculus (I, II and III)."
-          - "Programming (I, II and III)."
-          - "Data Structures and Algorithms."
-          - "Databases."
-          - "Systems Design."
+            - "Artificial Intelligence."
+            - "Calculus (I, II and III)."
+            - "Data Structures and Algorithms."
+            - "Data Mining."
+            - "Databases."
+            - "Linear Algebra."
+            - "Programming (I, II and III)."
+            - "Probability and Statistics."
+            - "Systems Design."
+            - "Projects: Management and Analysis."
 
    # Publications
   publications:
@@ -282,7 +292,7 @@ params:
     enable: false
     # title: "Custom Name"
     items:
-      - title: Google kickstart runner
+      - title: Ideatón 2023 of BANCO SOLIDARIO S.A.
         content: I solved all problems with optimal solution.
         url: https://example.com
         image: /images/achievment.jpg

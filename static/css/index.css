@@ -438,6 +438,17 @@ header .navbar.animate {
     opacity: 0.8;
 }
 
+#education .education-ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 450px));
+    gap: 0px 40px;
+    margin: 20px 0px 0px;
+    /* padding-left: 3%; */
+    /* margin: 1.5%; */
+    /* overflow: hidden; */
+    /* list-style: none; */ 
+}
+
 /* Publications */
 
 #publications .container > h3 {
