@@ -242,7 +242,7 @@ params:
             - "Data Management."
 
           
-      - title: "Computer Science Engineering"
+      - title: "Degree in Computer Science Engineering"
         school:
           name: "Universidad San Francisco de Quito (USFQ)"
           url: "https://www.usfq.edu.ec/es"
@@ -275,7 +275,6 @@ params:
     index: false
     items:
       - title: "Path Planning Optimization in SDN Using Machine Learning Techniques"
-        school:
           name: "2021 IEEE Fifth Ecuador Technical Chapters Meeting (ETCM)"
           url: "https://attend.ieee.org/etcm-2021/"
           icon: /images/ieee-logo.png
