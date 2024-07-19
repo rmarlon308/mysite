@@ -275,6 +275,7 @@ params:
     index: false
     items:
       - title: "Path Planning Optimization in SDN Using Machine Learning Techniques"
+        school:
           name: "2021 IEEE Fifth Ecuador Technical Chapters Meeting (ETCM)"
           url: "https://attend.ieee.org/etcm-2021/"
           icon: /images/ieee-logo.png
