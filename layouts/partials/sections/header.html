@@ -121,6 +121,15 @@
                     </li>
                     {{ end }}
 
+                    {{ if and (.Site.Params.certificates.enable | default false) (not (.Site.Params.navbar.menus.disablecertificates | default false)) }}
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="{{ .Site.Params.BaseURL }}#certificates"
+                            aria-label="certificates">
+                            {{ .Site.Params.certificates.title | default "certificates" }}
+                        </a>
+                    </li>
+                    {{ end }}
+
 
                     {{ if and (.Site.Params.achievements.enable | default false) (not (.Site.Params.navbar.menus.disableAchievements | default false)) }}
                     <li class="nav-item navbar-text">

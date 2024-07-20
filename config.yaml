@@ -121,6 +121,7 @@ params:
       disableExperience: false
       disableEducation: false
       disableProjects: false
+      disableCertificates: false
       disableAchievements: false
       disableContact: false
       disablePublications: false
@@ -216,7 +217,7 @@ params:
         school:
           name: "Universidad Autónoma de Madrid (UAM)"
           url: "https://www.uam.es/uam/inicio"
-          icon: /images/UAM+solo.svg
+          icon: /images/uam2.png
         date: "Sep 2023 - Present"
         GPA: "7.73 out of 10"
         content: |-
@@ -286,6 +287,46 @@ params:
           name: Available on IEEE Xplore
           url: "https://ieeexplore.ieee.org/document/9590749"
         content: |-
+
+
+
+ # Certificates
+  certificates:
+    enable: true
+    title: "Certificates"
+    items:
+
+      - job: "IELTS Academic"
+        company: "IELTS"
+        companyUrl: "https://ielts.org/"
+        icon: /images/IELTS.png
+        featuredLink:
+          enable: true
+          name: "Check the Certificate"
+          url: "/IELTS_MarlonRodriguez_Mar2023.pdf"
+          download: true
+          newPage: false
+        content:  |
+          Overall Band Score: 6.5
+         
+
+      - job: "Program in Statistics and Data Science"
+        company: "MITx"
+        companyUrl: "https://mitxonline.mit.edu/"
+        icon: /images/mitx.png
+        # featuredLink:
+        #   enable: true
+        #   name: "View the project"
+        #   url: "https://example.com"
+        content:  |
+          - [6.419x: Data Analysis: Statistical Modeling and Computation in Applications](https://courses.edx.org/certificates/72cee63059954790b69dee3360cb77be). (Sep 2022)
+          - [18.6501x: Fundamentals of Statistics](https://courses.edx.org/certificates/1f7cb25d4b5f4b53b2bcb3a1197440ea). (May 2022)
+          - [6.86x: Machine Learning with Python-From Linear Models to Deep Learning](https://courses.edx.org/certificates/e9106ef5567541cc961e2722a8c4d6db). (Nov 2021)
+          - [6.431x: Probability - The Science of Uncertainty and Data](https://courses.edx.org/certificates/7bd12df6a5744a3ca773f1ec43b6fd77). (Sep 2021)
+      
+
+
+
 
   # Achievements
   achievements:
