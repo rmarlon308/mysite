@@ -39,6 +39,7 @@
                                     {{ .content | markdownify }}
                                 </div>
 
+
                                 {{ if .featuredLink.enable }}
                                 <div class="py-1">
                                     <a href="{{ .featuredLink.url }}" class="btn" {{ cond .featuredLink.download "download" "" }}
