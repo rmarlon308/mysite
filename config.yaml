@@ -55,7 +55,7 @@ markup:
     #   weight: 2
 
 params:
-  title: "Marlon Rodríguez Flor"
+  title: "Marlon Sebastián Rodríguez Flor"
   description: This is Marlon's profile.
   # staticPath: "https://github.com/rmarlon308/mysite/tree/main/static"  # The path to serve the static files from
   favicon: "/fav_marlon.png"
@@ -131,9 +131,9 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Marlon."
-    subtitle: "Computer Science Engineer"
-    subtitle2: "Data Scientist"
-    content: "Passionate about the development of artificial intelligence models for discovering the stories behind data."
+    subtitle: "Data Scientist"
+    subtitle2: "Computer Science Engineer"
+    content: "Passionate about developing artificial intelligence models that uncover hidden patterns and insights within data."
     image: /images/hero.jpg
     bottomImage:
       enable: true
@@ -141,7 +141,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/CV_Marlon2024_ENG_JUL.pdf"
+      url: "/CV_MarlonRodriguez_ENG_20250317.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -160,9 +160,12 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a data scientist pursuing a Master's degree in Data Science at the Autonomous University of Madrid, currently working on my Master's thesis with a focus on artificial intelligence. I hold an engineering degree in Computer Science from San Francisco de Quito University. Throughout my career, I have developed and implemented numerous machine learning models that drive business value. My professional experience includes working at Banco Solidario S.A., where I led data analytics projects and developed interactive dashboards to enhance customer experience and sales efficiency.
 
-      I have expertise in various artificial intelligence techniques and statistical analysis, I have worked with machine learning and deep learning for Natural Language Processing (NLP), Computer Vision, Biometrics and recommendation systems. I have earned several certifications from MITx MicroMasters in data analysis, statistics, and machine learning. My research, published in IEEE, highlights my contributions to machine learning and path planning optimization. Additionally, I am fluent in both Spanish and English.
+      I am a Data Scientist with a Master’s degree in Data Science from the Autonomous University of Madrid, where my research focused on applying artificial intelligence to recommendation systems, specifically tackling challenges in Multimodal Extreme Multi-Label Classification (XMC). I also hold an Engineering degree in Computer Science from San Francisco de Quito University.
+
+      Throughout my career, I have developed and deployed machine learning models to optimize decision-making, enhance predictive capabilities, and drive business value. At Banco Solidario S.A., I led data science initiatives, applying machine learning and statistical models to improve customer segmentation, risk assessment, and sales efficiency. My work contributed to streamlining business processes and increasing operational effectiveness through AI-driven insights.
+
+      I have extensive experience with Transformer architectures, having applied them in-depth during my Master’s thesis. Additionally, I have worked with a wide range of libraries, including PyTorch, Hugging Face, Scikit-Learn, NumPy, and Pandas/Polars among others, to develop scalable and efficient machine learning models. My expertise covers Natural Language Processing (NLP), Computer Vision, Biometrics, Recommendation Systems, and Reinforcement Learning.
 
     skills:
       enable: true
@@ -218,10 +221,13 @@ params:
           name: "Universidad Autónoma de Madrid (UAM)"
           url: "https://www.uam.es/uam/inicio"
           icon: /images/uam2.png
-        date: "Sep 2023 - Present"
-        GPA: "7.73 out of 10"
+        date: "Sep 2023 - Feb 2025"
+        GPA: "8.03 out of 10"
         content: |-
-          I expect to graduate in January 2025.
+          
+          Master’s Thesis: <i>Multimodal Extreme Multi-Label Classification Under Resource Limitations.</i>
+            - Developed a novel, resource-efficient multimodal architecture for Extreme Multi-Label Classification (XMC), integrating text and image modalities using an early fusion model based on transformers. The proposed architecture remains compatible with state-of-the-art XMC methods such as DEXA and NGAME, enhancing classification performance while ensuring computational efficiency and scalability. Extensive experiments on the MM-AmazonTitles-300K benchmark demonstrated that our approach outperforms existing methods, setting a new state-of-the-art in multimodal XMC.
+            - Grade: 9.5/10.
 
           Extracurricular Activities:
             - Delegate of the Master's Degree in Data Science.
@@ -243,7 +249,7 @@ params:
             - "Data Management."
 
           
-      - title: "Degree in Computer Science Engineering"
+      - title: "Bachelor’s Degree in Computer Science Engineering"
         school:
           name: "Universidad San Francisco de Quito (USFQ)"
           url: "https://www.usfq.edu.ec/es"
@@ -251,8 +257,11 @@ params:
         date: "Aug 2017 - Jun 2021"
         GPA: "2.94 out of 4"
         content: |-
-          I published a paper in the 2021 IEEE Fifth Ecuador Technical Chapters Meeting (ETCM).
-          - [Path Planning Optimization in SDN Using Machine Learning Techniques](https://ieeexplore.ieee.org/document/9590749).
+
+          Degree Thesis: <i>Path Planning Optimization in SDN Using Machine Learning Techniques.</i>
+            - Developed a machine learning-based approach to optimize path planning in Software-Defined Networks (SDN), improving network QoS. Formulated path selection as a multi-class classification problem and evaluated multiple classifiers. The best-performing model, a support vector machine, outperformed alternative methods
+            - Published in the 2021 IEEE Fifth Ecuador Technical Chapters Meeting (ETCM) https://ieeexplore.ieee.org/document/9590749.
+            - Grade: A.
 
         subjects:
           enable: true
