@@ -225,9 +225,8 @@ params:
         GPA: "8.03 out of 10"
         content: |-
           
-          Master’s Thesis: <i>Multimodal Extreme Multi-Label Classification Under Resource Limitations.</i>
+          Master’s Thesis: <i>Multimodal Extreme Multi-Label Classification Under Resource Limitations</i> (Grade: 9.5/10).
             - Developed a novel, resource-efficient multimodal architecture for Extreme Multi-Label Classification (XMC), integrating text and image modalities using an early fusion model based on transformers. The proposed architecture remains compatible with state-of-the-art XMC methods such as DEXA and NGAME, enhancing classification performance while ensuring computational efficiency and scalability. Extensive experiments on the MM-AmazonTitles-300K benchmark demonstrated that our approach outperforms existing methods, setting a new state-of-the-art in multimodal XMC.
-            - Grade: 9.5/10.
 
           Extracurricular Activities:
             - Delegate of the Master's Degree in Data Science.
@@ -235,7 +234,7 @@ params:
 
         subjects:
           enable: true
-          title: "Some relevant subjects taken:"
+          title: "Relevant coursework:"
           items:
             - "Advanced Methods in Machine Learning."
             - "Advanced Methods in Statistics."
@@ -258,14 +257,13 @@ params:
         GPA: "2.94 out of 4"
         content: |-
 
-          Degree Thesis: <i>Path Planning Optimization in SDN Using Machine Learning Techniques.</i>
+          Degree Thesis: <i>Path Planning Optimization in SDN Using Machine Learning Techniques</i> (Grade: A).
             - Developed a machine learning-based approach to optimize path planning in Software-Defined Networks (SDN), improving network QoS. Formulated path selection as a multi-class classification problem and evaluated multiple classifiers. The best-performing model, a support vector machine, outperformed alternative methods
             - Published in the 2021 IEEE Fifth Ecuador Technical Chapters Meeting (ETCM) https://ieeexplore.ieee.org/document/9590749.
-            - Grade: A.
 
         subjects:
           enable: true
-          title: "Some relevant subjects taken:"
+          title: "Relevant coursework:"
           items:
             - "Artificial Intelligence."
             - "Calculus (I, II and III)."
