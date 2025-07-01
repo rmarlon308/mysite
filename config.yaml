@@ -360,12 +360,12 @@ params:
 # projects
   projects:
     enable: true
-    title: "Some Projects"
+    title: "Relevant Projects"
     items:
       
       - title: Image Segmentation with U-Net and DeepLabV3 on CUB-200-2011 and Pascal VOC2012
         content: This project explores semantic segmentation on CUB-200-2011 and Pascal VOC 2012 using U-Net and DeepLabV3 with PyTorch, combining data augmentation, class balancing, and hybrid loss functions.
-        image: /images/projects/SS.png
+        image: /images/projects/Semantic.png
         featured:
           name: Available on GitHub
           link: https://github.com/rmarlon308/Semantic-Segamentation-with-U-Net-and-DeepLabV3
@@ -394,6 +394,22 @@ params:
           #   - icon: fab fa-github
           #     url: https://github.com/gurusabarish/converter
 
+      - title: Multiple Object Tracking for Video Sequences
+        content: "This project addresses the task of multiple object tracking (MOT), specifically focusing on tracking people walking in video sequences. The base model for detection and tracking is enhanced using advanced techniques to improve performance. The dataset used is MOT16, which contains various scenarios for individual detection."
+        image: /images/projects/MOD.png
+        featured:
+          name: Available on GitHub
+          link: https://github.com/rmarlon308/Multiple-Object-Traking-for-Video-Sequences
+        badges:
+          - "Python"
+          - "PyTorch"
+          - "Computer Vision"
+        # links:
+          # - icon: fa fa-envelope
+            # url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          # - icon: fab fa-github
+          #   url: https://github.com/rmarlon308/QLearning-and-SARSA-Implementation
+
       - title: Analysis of Emotions in Classic Novels
         content: This project uses Natural Language Processing (NLP) to analyze emotions in literary texts from Project Gutenberg, aiming to identify and quantify emotions through advanced NLP methods like sentiment analysis and text information extraction.
         image: /images/projects/emotion.png
@@ -418,22 +434,6 @@ params:
         badges:
           - "Python"
           - "Reinforcement Learning (RL)"
-        # links:
-          # - icon: fa fa-envelope
-            # url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          # - icon: fab fa-github
-          #   url: https://github.com/rmarlon308/QLearning-and-SARSA-Implementation
-
-      - title: Multiple Object Tracking for Video Sequences
-        content: "This project addresses the task of multiple object tracking (MOT), specifically focusing on tracking people walking in video sequences. The base model for detection and tracking is enhanced using advanced techniques to improve performance. The dataset used is MOT16, which contains various scenarios for individual detection."
-        image: /images/projects/MOD.png
-        featured:
-          name: Available on GitHub
-          link: https://github.com/rmarlon308/Multiple-Object-Traking-for-Video-Sequences
-        badges:
-          - "Python"
-          - "PyTorch"
-          - "Computer Vision"
         # links:
           # - icon: fa fa-envelope
             # url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
