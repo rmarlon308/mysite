@@ -363,6 +363,22 @@ params:
     title: "Some Projects"
     items:
       
+      - title: Image Segmentation with U-Net and DeepLabV3 on CUB-200-2011 and Pascal VOC2012
+        content: This project explores semantic segmentation on CUB-200-2011 and Pascal VOC 2012 using U-Net and DeepLabV3 with PyTorch, combining data augmentation, class balancing, and hybrid loss functions.
+        image: /images/projects/SS.png
+        featured:
+          name: Available on GitHub
+          link: https://github.com/rmarlon308/Semantic-Segamentation-with-U-Net-and-DeepLabV3
+        badges:
+          - "Python"
+          - "PyTorch"
+          - "Torchvision"
+          - "Semantic Segmentation"
+          - "Albumentations"
+          - "Computer Vision"
+          # links:
+          #   - icon: fab fa-github
+          #     url: https://github.com/gurusabarish/converter
 
       - title: Gradient Boosting Implementation
         content: This project features an implementation of the Gradient Boosting algorithm, an ensemble method that combines multiple decision trees (stumps). It utilizes gradient descent optimization to minimize the loss function. The collective contributions of all weak models (stumps) result in a robust predictive model.
