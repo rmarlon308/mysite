@@ -131,8 +131,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Marlon."
-    subtitle: "Data Scientist"
-    subtitle2: "Computer Science Engineer"
+    subtitle: "Ph.D Student in Computer Vision & AI"
     content: "Passionate about developing artificial intelligence models that uncover hidden patterns and insights within data."
     image: /images/hero.jpg
     bottomImage:
@@ -141,7 +140,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/CV_MarlonRodriguez_ENG_20250317.pdf"
+      url: "/CV_MarlonRodriguez_ENG_NOV_25.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -161,27 +160,24 @@ params:
     image: "/images/me.png"
     content: |-
 
-      I am a Data Scientist with a Master’s degree in Data Science from the Autonomous University of Madrid, where my research focused on applying artificial intelligence to recommendation systems, specifically tackling challenges in Multimodal Extreme Multi-Label Classification (XMC). I also hold an Engineering degree in Computer Science from San Francisco de Quito University.
+      I am a Ph.D. student in Computer Vision and Artificial Intelligence at the Autonomous University of Madrid (UAM), where I conduct research at the Video Processing and Understanding Lab (VPULab). My current work focuses on Open-World Semantic Segmentation for Driving Scenes, with an emphasis on Unsupervised Domain Adaptation (UDA) and Self-Supervised Learning (SSL).
 
-      Throughout my career, I have developed and deployed machine learning models to optimize decision-making, enhance predictive capabilities, and drive business value. At Banco Solidario S.A., I led data science initiatives, applying machine learning and statistical models to improve customer segmentation, risk assessment, and sales efficiency. My work contributed to streamlining business processes and increasing operational effectiveness through AI-driven insights.
+      I hold a Master’s degree in Data Science from UAM, where my research addressed challenges in Multimodal Extreme Multi-Label Classification (XMC) under resource constraints. My Master’s thesis proposed a transformer-based multimodal architecture that fuses visual and textual information at the token level, achieving state-of-the-art performance on large-scale benchmarks while remaining computationally efficient. I also earned a Bachelor’s degree in Computer Science Engineering from Universidad San Francisco de Quito, where my undergraduate thesis focused on applying machine learning techniques to network optimization problems.
 
-      I have extensive experience with Transformer architectures, having applied them in-depth during my Master’s thesis. Additionally, I have worked with a wide range of libraries, including PyTorch, Hugging Face, Scikit-Learn, NumPy, and Pandas/Polars among others, to develop scalable and efficient machine learning models. My expertise covers Natural Language Processing (NLP), Computer Vision, Biometrics, Recommendation Systems, and Reinforcement Learning.
+      Previously, I worked as a Data Analytics Officer at Banco Solidario S.A., leading data-driven initiatives for customer segmentation, risk assessment, and sales optimization. I developed and deployed machine learning models that improved business decision-making, increased customer acquisition efficiency, and supported operational improvements through actionable insights.
+
+      My technical expertise includes Transformer-based architectures, Vision-Language Models, and contrastive learning methods, applied across Computer Vision, Natural Language Processing, Semantic Segmentation, and Recommendation Systems. I have extensive hands-on experience building scalable machine learning pipelines using modern research and production tools, with a strong focus on reproducibility, efficiency, and empirical evaluation.
 
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "Python"
-        - "R"
-        - "Java"
-        - "SQL"
-        - "Spark"
-        - "C++"
-        - "Dart"
-        - "C#"
-        - "CSS"
-        - "HTML"
-        - "LaTeX"
+        - "Python, R, SQL"
+        - "PyTorch, Hugging Face, Scikit-Learn"
+        - "Computer Vision & NLP (Semantic Segmentation, Vision-Language Models)"
+        - "Transformer Architectures (ViT, BERT, CLIP-style models)"
+        - "Data Processing (NumPy, Pandas / Polars)"
+        - "Git, LaTeX"
 
   # Experience
   experience:
@@ -199,7 +195,7 @@ params:
         #   url: "https://example.com"
         content:  |
           - Increased the balance in savings accounts by USD 200,000 by identifying over 38,000 potential clients who increased their balance by more than USD 260 through the implementation of an XGBoost model, with 7% of them achieving this increase.
-          - Lead and work closely with product owners to develop successful projects, communicating findings and results clearly and effectively to non-technical audiences.
+          - Led and work closely with product owners to develop successful projects, communicating findings and results clearly and effectively to non-technical audiences.
       
       - job: "Data Analytics Technician"
         company: "Banco Solidario S.A."
@@ -207,8 +203,8 @@ params:
         date: "Jul 2021 - Dic 2021"
         icon: /images/bs.png
         content: |
-          - Increased the number of downloads of Banco Solidario's mobile app by 30% and reduce the cost per download by 22% by implementing a Random Forest model to identify potential customers for digitalization, also improving customer segmentation.
-          - Enhanced customer experience and boost sales by developing an interactive dashboard to monitor the efficiency of time in sales and services for commercial advisors at Banco Solidario, enabling targeted actions at each branch.
+          - Increased the number of downloads of Banco Solidario's mobile app by 30% and reduced the cost per download by 22% by implementing a Random Forest model to identify potential customers for digitalization, also improving customer segmentation.
+          - Enhanced customer experience and boost sales by developing an interactive dashboard to monitor the sales and service times for commercial advisors at Banco Solidario, enabling targeted actions at each branch.
 
   # Education
   education:
@@ -216,6 +212,22 @@ params:
     # title: "Custom Name"
     index: false
     items:
+      - title: "Ph.D. Student in Computer Vision and AI"
+        school:
+          name: "Universidad Autónoma de Madrid (UAM)"
+          url: "https://www.uam.es/uam/inicio"
+          icon: /images/uam2.png
+        date: "Nov 2025 - Present"
+        content: |-
+
+          Video Processing and Understanding Lab (VPULap)
+    
+          Advisors:
+            - Dr. Juan Carlos San Miguel Avedillo.
+            - Dr. Fernando Díaz de María.
+
+          Thesis: <i>Open-World Semantic Segmentation for Driving Scenes</i>.
+
       - title: "Master's Degree in Data Science"
         school:
           name: "Universidad Autónoma de Madrid (UAM)"
@@ -282,12 +294,25 @@ params:
     # title: "Custom Name"
     index: false
     items:
+      - title: "Large Language Models Meet Extreme Multi-label Classification: Scaling and Multi-modal Framework"
+        school:
+          name: "The 40th Annual AAAI Conference on Artificial Intelligence (AAAI)"
+          url: "https://aaai.org/conference/aaai/aaai-26/"
+          icon: /images/aaai_logo.jpeg
+        date: "2026"
+        # GPA: "3.8 out of 5.0"
+        featuredLink:
+          enable: true
+          name: Available on arXiv
+          url: "https://arxiv.org/abs/2511.13189"
+        content: This work was done in collaboration with researchers from NielsenIQ and the IIT Delhi.
+
       - title: "Path Planning Optimization in SDN Using Machine Learning Techniques"
         school:
-          name: "2021 IEEE Fifth Ecuador Technical Chapters Meeting (ETCM)"
+          name: "IEEE Fifth Ecuador Technical Chapters Meeting (ETCM)"
           url: "https://attend.ieee.org/etcm-2021/"
-          icon: /images/ieee-logo.png
-        date: "Oct 2021"
+          icon: /images/etcm.png
+        date: "2021"
         # GPA: "3.8 out of 5.0"
         featuredLink:
           enable: true
@@ -340,6 +365,11 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - title: PhD Funding – Community of Madrid
+        content: "Selected through a competitive public call as PDI (Personal Docente e Investigador) – Titulado Superior for the project Improved Deep Learning for Computer Vision, fully funded by the Community of Madrid."
+          # url: https://example.com
+        image: /images/logocomunidadmadrid.webp
+
       - title: Ideatón 2023 of BANCO SOLIDARIO S.A.
         content: "We achieved second place for the solution proposed to a strategic challenge of the bank."
         # url: https://example.com
