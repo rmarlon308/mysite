@@ -118,6 +118,7 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
+      disableresearch: false
       disableExperience: false
       disableEducation: false
       disableProjects: false
@@ -178,6 +179,26 @@ params:
         - "Transformer Architectures (ViT, BERT, CLIP-style models)"
         - "Data Processing (NumPy, Pandas / Polars)"
         - "Git, LaTeX"
+
+
+  # Research Experience
+  research:
+    enable: true
+    title: "Research Experience"
+    items:
+      - job: "Ph.D. Researcher"
+        company: "Video Processing and Understanding Lab (VPULab)"
+        companyUrl: "http://www-vpu.eps.uam.es/webvpu/es/inicio/presentacion/"
+        date: "Nov 2025 - Present"
+        icon: /images/vpulab.jpg
+        # featuredLink:
+        #   enable: true
+        #   name: "View the project"
+        #   url: "https://example.com"
+        content: |
+          - Conducting early-stage research on Unsupervised Domain Adaptation (UDA) and Self-Supervised Learning (SSL) for semantic segmentation in driving scenes.
+          - Studying and adapting SSL-based loss functions to improve domain alignment and enhance spatial feature consistency across domains.
+          - Performing literature review and experimental analysis to integrate consistency-based regularization within UDA frameworks such as DAFormer.
 
   # Experience
   experience:
