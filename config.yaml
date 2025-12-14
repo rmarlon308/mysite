@@ -1,4 +1,4 @@
-# baseURL: "https://github.com/rmarlon308/mysite/"
+﻿# baseURL: "https://github.com/rmarlon308/mysite/"
 baseURL: "http://marlonrodriguez.com"
 languageCode: "en-us"
 title: "Marlon Rodríguez Flor"
@@ -320,20 +320,33 @@ params:
           name: "The 40th Annual AAAI Conference on Artificial Intelligence (AAAI)"
           url: "https://aaai.org/conference/aaai/aaai-26/"
           icon: /images/aaai_logo.jpeg
-        date: "2026"
+        date: "Jan 2026"
+        authors:
+          - "Diego Ortego"
+          - "<strong>Marlon Rodríguez</strong>"
+          - "Mario Almagro"
+          - "Kunal Dahiya"
+          - "David Jiménez"
+          - "Juan C. SanMiguel"
         # GPA: "3.8 out of 5.0"
         featuredLink:
           enable: true
           name: Available on arXiv
           url: "https://arxiv.org/abs/2511.13189"
-        content: This work was done in collaboration with researchers from NielsenIQ and the IIT Delhi.
+        content: This research was performed in collaboration with researchers from NielsenIQ and the Indian Institute of Technology (IIT) Delhi.
 
       - title: "Path Planning Optimization in SDN Using Machine Learning Techniques"
         school:
           name: "IEEE Fifth Ecuador Technical Chapters Meeting (ETCM)"
           url: "https://attend.ieee.org/etcm-2021/"
           icon: /images/etcm.png
-        date: "2021"
+        date: "Oct 2021"
+        authors:
+          - "<strong>Marlon Rodríguez</strong>"
+          - "Ricardo Flores Moyano"
+          - "Noel Pérez" 
+          - "Daniel Riofrío"
+          - "Diego Benítez"
         # GPA: "3.8 out of 5.0"
         featuredLink:
           enable: true
@@ -571,3 +584,5 @@ params:
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
+
+

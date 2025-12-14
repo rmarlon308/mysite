@@ -37,6 +37,16 @@
                                 {{ .school.name }}
                                 {{ end }}
 
+                                {{ with .authors }}
+                                <div class="py-1">
+                                    {{ if reflect.IsSlice . }}
+                                        {{ delimit . ", " | safeHTML }}
+                                    {{ else }}
+                                        {{ . | safeHTML }}
+                                    {{ end }}
+                                </div>
+                                {{ end }}
+
                                 <div class="py-1">
                                     {{ .date }}
                                 </div>
